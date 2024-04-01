@@ -1,0 +1,23 @@
+{
+  "name": "@web3-react/store",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "8.0.6-alpha.0",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.4.0",
+    "@web3-react/types": "^8.0.6-alpha.0"
+  },
+  "peerDependencies": {
+    "zustand": "^3.5.10"
+  },
+  "gitHead": "9461726911d45849d76642bc60fec57e84234cd7"
+}
